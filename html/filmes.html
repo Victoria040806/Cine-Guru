@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+    <!-- https://getbootstrap.com/docs/4.3/utilities/borders/ -->
+    <!-- https://fontawesome.com/v5/docs/web/use-with/wordpress/install-manually -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alice&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/filmes.css">
+    <link rel="shortcut icon" href="../imagens/logo-removebg-preview.png" type="Cine-Guru">
+    <title>Cine-Guru</title>
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <div class="topo-conteudo">
+            <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: aquamarine;"> -->
+            <nav class="navbar navbar-expand-lg justify-content-center" style="background-color: #333 !important;">
+                <div class="container">
+                    <a class="navbar-brand" href="home.html">
+                        <img src="../imagens/logobranco.png" alt="Bootstrap" width="150px" height="150px">
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding: 10px;">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" style="color: aliceblue;" href="home.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="color: aliceblue;" href="cineguru.html">Cine-Guru</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="paravc.html" style="color: aliceblue;">Para você</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="filmes.html" style="color: aliceblue;">Filmes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="series.html" style="color: aliceblue;">Séries</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+    <!-- Header -->
+
+    <main>
+        <!-- background-video -->
+        <!-- <video autoplay loop muted id="background-video">
+        <source src="../video/fundo 1.mp4" type="video/mp4">
+    </video>
+    </main> -->
+        <!-- background-video fim -->
+<br>
+<center><b><h1>Filmes</h1></b></center>
+
+
+        <!-- bloco de filmes -->
+        <br><br>
+        <h3 style="color: aliceblue;">| Top 3-Atuais</h3>
+        <br><br>
+        <div class="row row-cols-1 row-cols-md-3 g-4" style="padding: 20px 30px;">
+            <div class="col">
+                <div class="card h-50" style="width: 20rem;">
+                    <img src="../imagens/filmes/deadpoolew.png" class="card-img-top" alt="..." style="height: 30rem;">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Deadpool & Wolverine</h5>
+                        <p class="card-text">Wade Wilson (Ryan Reynolds) e Wolverine (Hugh Jackman) se juntam para uma
+                            aventura cheia de ação e humor, formando uma aliança inesperada para enfrentar um inimigo
+                            comum, com muita adrenalina e referências aos quadrinhos.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Nota: 4,4 / 5</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-50" style="width: 20rem;">
+                    <img src="../imagens/filmes/immaculate.png" class="card-img-top" alt="..." style="height: 30rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Imaculada</h5>
+                        <p class="card-text">Sob a direção de Michael Mohan, o filme de terror segue Cecilia (Sydney
+                            Sweeney), uma jovem que se muda para um convento na Itália, onde enfrenta eventos
+                            perturbadores e descobre uma gravidez misteriosa, revelando horrores escondidos.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Nota: 2,9 / 5</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-50" style="width: 20rem;">
+                    <img src="../imagens/filmes/éassim.png" class="card-img-top" alt="..." style="height: 30rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">É assim que acaba</h5>
+                        <p class="card-text" style="font-size: 96.3%;">Baseado no livro de Colleen Hoover, a trama
+                            acompanha Lily Bloom, que inicia uma nova vida em Boston e encontra o amor em Ryle, um
+                            neurocirurgião. No entanto, com o tempo, lembranças do passado e o retorno de Atlas
+                            Corrigan, seu primeiro amor, desafiam suas decisões sobre o futuro.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Nota: 4,1 / 5</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <br><br>
+        <h3 style="color: aliceblue;">| Top 3-Comédia</h3>
+        <br><br>
+        <div class="row row-cols-1 row-cols-md-3 g-4" style="padding: 20px 30px;">
+            <div class="col">
+                <div class="card h-50" style="width: 20rem;">
+                    <img src="../imagens/filmes/gentegrande.png" class="card-img-top" alt="..." style="height: 30rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Gente Grande</h5>
+                        <p class="card-text">"Gente Grande" é uma comédia sobre amigos de infância que se reúnem em um
+                            fim de semana para reviver velhas memórias e enfrentar desafios pessoais.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Nota: 4,8 / 5</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-50" style="width: 20rem;">
+                    <img src="../imagens/filmes/gemeoquemerece.png" class="card-img-top" alt="..."
+                        style="height: 30rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Cada um tem a gêmea que Merece</h5>
+                        <p class="card-text">"Cada um Tem a Gêmea que Merece" é uma comédia sobre dois irmãos cujas
+                            vidas mudam quando suas gêmeas idênticas, com personalidades opostas, entram em cena,
+                            gerando muita confusão.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Nota: 2,1 / 5</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-50" style="width: 20rem;">
+                    <img src="../imagens/filmes/gentegrande2.png" class="card-img-top" alt="..." style="height: 30rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Todo mundo em pânico</h5>
+                        <p class="card-text" style="font-size: 96.3%;">"Gente Grande 2" é a sequência da comédia
+                            original, onde os amigos se reencontram novamente, desta vez lidando com novas situações e
+                            confusões em um fim de semana de férias.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Nota: 4 / 5</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <h3 style="color: aliceblue;">| Top 3-Terror</h3>
+        <br><br>
+        <div class="row row-cols-1 row-cols-md-3 g-4" style="padding: 20px 30px;">
+            <div class="col">
+                <div class="card h-50" style="width: 20rem;">
+                    <img src="../imagens/filmes/invocação2.png" class="card-img-top" alt="..." style="height: 30rem;">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Invocação do mal 2</h5>
+                        <p class="card-text">
+                            Invocação do Mal 2 mostra Ed e Lorraine Warren ajudando uma família na Inglaterra a lidar
+                            com uma possessão demoníaca.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Nota: 4,4 / 5</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-50" style="width: 20rem;">
+                    <img src="../imagens/filmes/annabelle.png" class="card-img-top" alt="..." style="height: 30rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Annabelle 2: A Criação do mal</h5>
+                        <p class="card-text">"Annabelle 2: A Criação do Mal" é um terror que conta a origem da boneca
+                            Annabelle, revelando como ela se tornou um instrumento de uma entidade demoníaca após uma
+                            tragédia familiar.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Nota: 3,9 / 5</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-50" style="width: 20rem;">
+                    <img src="../imagens/filmes/afreira.png" class="card-img-top" alt="..." style="height: 30rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">A Freira</h5>
+                        <p class="card-text" style="font-size: 96.3%;">"A Freira" é um filme de terror que explora a
+                            origem da entidade demoníaca Valak, mostrando como a freira, que se revela uma presença
+                            maligna, ameaça um convento na Romênia.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Nota: 3,2 / 5</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <br><br>
+        <h3 style="color: aliceblue;">| Top 3-Comédia Romântica</h3>
+        <br><br>
+        <div class="row row-cols-1 row-cols-md-3 g-4" style="padding: 20px 30px;">
+            <div class="col">
+                <div class="card h-50" style="width: 20rem;">
+                    <img src="../imagens/filmes/trintou.png" class="card-img-top" alt="..." style="height: 30rem;">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">De repente 30</h5>
+                        <p class="card-text">De Repente 30 é uma comédia romântica onde uma adolescente deseja ser
+                            adulta e acorda aos 30 anos, enfrentando os desafios e surpresas da vida adulta enquanto
+                            tenta recuperar sua vida e amor verdadeiro.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Nota: 4,2 / 5</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-50" style="width: 20rem;">
+                    <img src="../imagens/filmes/garotosamei.png" class="card-img-top" alt="..." style="height: 30rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Para todos os garotos que já amei</h5>
+                        <p class="card-text">"Para Todos os Garotos que Já Amei" é uma comédia romântica sobre Lara Jean
+                            Covey, cujas cartas de amor secretas são misteriosamente enviadas para todos os seus antigos
+                            amores, mudando sua vida e relacionamentos de forma inesperada.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Nota: 4,5 / 5</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-50" style="width: 20rem;">
+                    <img src="../imagens/filmes/todosmenosvc.png" class="card-img-top" alt="..." style="height: 30rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Todos menos você</h5>
+                        <p class="card-text" style="font-size: 96.3%;">"Todos Menos Você" é um drama romântico onde um
+                            homem, após uma separação, tenta reconstruir sua vida e relacionamentos, confrontando suas
+                            escolhas passadas e buscando um novo caminho.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Nota: 3,7 / 5</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <h3 style="color: aliceblue;">| Top 3-Ficção Científica</h3>
+        <br><br>
+        <div class="row row-cols-1 row-cols-md-3 g-4" style="padding: 20px 30px;">
+            <div class="col">
+                <div class="card h-50" style="width: 20rem;">
+                    <img src="../imagens/filmes/inter.png" class="card-img-top" alt="..." style="height: 30rem;">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Interstellar</h5>
+                        <p class="card-text">"Interstellar" é uma ficção científica que segue uma equipe de astronautas
+                            viajando por um buraco de minhoca em busca de um novo lar para a humanidade, enfrentando
+                            desafios cósmicos e emocionais enquanto exploram os limites do espaço e do tempo..</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Nota: 4,6 / 5</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-50" style="width: 20rem;">
+                    <img src="../imagens/filmes/avatar.png" class="card-img-top" alt="..." style="height: 30rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Avatar</h5>
+                        <p class="card-text">"Avatar" segue um ex-fuzileiro que, através de um corpo avatar, se envolve
+                            em um conflito entre humanos e os nativos do planeta Pandora, descobrindo um novo propósito.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Nota: 4,8 / 5</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-50" style="width: 20rem;">
+                    <img src="../imagens/filmes/matrix.png" class="card-img-top" alt="..." style="height: 30rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Matrix</h5>
+                        <p class="card-text" style="font-size: 96.3%;">"Matrix" é um sci-fi em que um hacker descobre
+                            que a realidade é uma simulação controlada por máquinas e se une a uma resistência para
+                            libertar a humanidade.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Nota: 4,6 / 5</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <br><br>
+        <h3 style="color: aliceblue;">| Top 3-Drama</h3>
+        <br><br>
+        <div class="row row-cols-1 row-cols-md-3 g-4" style="padding: 20px 30px;">
+            <div class="col">
+                <div class="card h-50" style="width: 20rem;">
+                    <img src="../imagens/filmes/estrelas.png" class="card-img-top" alt="..." style="height: 30rem;">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">A Culpa é das estrelas</h5>
+                        <p class="card-text">"A Culpa é das Estrelas" é um drama romântico sobre dois adolescentes com
+                            câncer que se apaixonam enquanto enfrentam os desafios de suas doenças e buscam significado
+                            e amor em suas vidas.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Nota: 4,4 / 5</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-50" style="width: 20rem;">
+                    <img src="../imagens/filmes/comoeu.png" class="card-img-top" alt="..." style="height: 30rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Como Eu Era Antes de Você</h5>
+                        <p class="card-text">"Como Eu Era Antes de Você" é um drama romântico que segue uma jovem que se
+                            torna cuidadora de um homem tetraplégico e, ao longo do tempo, desenvolve uma profunda
+                            conexão com ele, mudando suas vidas para sempre.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Nota: 4,3 / 5</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-50" style="width: 20rem;">
+                    <img src="../imagens/filmes/cidadededeus.png" class="card-img-top" alt="..." style="height: 30rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Cidade de Deus</h5>
+                        <p class="card-text" style="font-size: 96.3%;">"Cidade de Deus" retrata a vida na favela do Rio
+                            de Janeiro, seguindo jovens que se envolvem com o tráfico e a violência enquanto buscam uma
+                            forma de escapar dessa realidade.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Nota: 4,6 / 5</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <br><br>
+        <h3 style="color: aliceblue;">| Top 3-Ação e aventura</h3>
+        <br><br>
+        <div class="row row-cols-1 row-cols-md-3 g-4" style="padding: 20px 30px;">
+            <div class="col">
+                <div class="card h-50" style="width: 20rem;">
+                    <img src="../imagens/filmes/tropa.png" class="card-img-top" alt="..." style="height: 30rem;">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Tropa de Elite</h5>
+                        <p class="card-text">"Tropa de Elite" é um drama policial brasileiro que acompanha o BOPE, um
+                            batalhão de operações especiais, enquanto enfrenta o tráfico de drogas e a corrupção no Rio
+                            de Janeiro.p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Nota: 4,6 / 5</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-50" style="width: 20rem;">
+                    <img src="../imagens/filmes/vef.png" class="card-img-top" alt="..." style="height: 30rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Velozes e Furiosos</h5>
+                        <p class="card-text">"Velozes e Furiosos" é uma franquia de ação focada em corridas de carros e
+                            crimes, seguindo um grupo de corredores e especialistas em veículos que enfrentam diversas
+                            ameaças e desafios.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Nota: 4,4 / 5</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-50" style="width: 20rem;">
+                    <img src="../imagens/filmes/vingadores.png" class="card-img-top" alt="..." style="height: 30rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Vingadores: Ultimato</h5>
+                        <p class="card-text" style="font-size: 96.3%;">"Vingadores: Ultimato" é o épico final da saga
+                            dos Vingadores, onde os heróis se unem para reverter o caos causado por Thanos e restaurar a
+                            ordem no universo após o estalo que dizimou metade da vida.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Nota: 4,7 / 5</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- rodapé -->
+        <footer>
+            <footer class="rodape">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <p class="titulo-rodape">
+                            <h4>Filmes</h4>
+                            </p>
+                            <p class="conteudo-rodape">
+                                <a class="nav-link" href="cineguru.html">Cine-Guru</a>
+                                <a class="nav-link" href="home.html">Home</a>
+                                <a class="nav-link" href="series.html">Séries</a>
+                                <a class="nav-link" href="paravc.html">Para você</a>
+                            </p>
+                        </div>
+                        <div class="col">
+                            <div>
+                                <p class="titulo-rodape">
+                                <h4>Políticas de Privacidade</h4>
+                                </p>
+                                <p class="conteudo-rodape2">
+                                    <a class="nav-link" href="../arquivo/Termos site.pdf" target="_blank">Termos de
+                                        Uso</a>
+
+                                    <a class="nav-link" href="../arquivo/politica.pdf" target="_blank">Politica
+                                        de
+                                        Privacidade</a>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <p class="titulo-rodape">
+                                <!-- <h4>Redes Sociais</h4> -->
+                            </p>
+                            <p class="imagens-rodape">
+                                <a class="linksredessociais"
+                                    href="https://web.facebook.com/?_rdc=1&_rdr&wtsid=rdr_0iwBqR540O1Y1p3Fr"
+                                    target="_blank">
+                                    <img src="../icons/facebook.png" alt="facebook">
+                                </a>
+                                <a class="linksredessociais" href="https://www.instagram.com/" target="_blank">
+                                    <img src="../icons/instagram.png" alt="instagram">
+                                </a>
+
+                                <a class="linksredessociais" href="https://x.com/?lang=pt-br" target="_blank">
+                                    <img src="../icons/twitter.png" alt="X">
+                                </a>
+
+                                <a class="linksredessociais"
+                                    href="https://www.tiktok.com/login?lang=pt-BR&redirect_url=https%3A%2F%2Fwww.tiktok.com%2Fupload%3Flang%3Dpt-BR"
+                                    target="_blank">
+                                    <img src="../icons/tiktok.png" alt="TikTok">
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </footer>
+
+            <!-- <p class="texto-rodape">
+        COPYRIGHT (C) 2024 CINE-GURU - TODOS OS DIREITOS RESERVADOS.
+    </p> -->
+        </footer>
+        </footer>
+        <!-- rodapé -->
+</body>
